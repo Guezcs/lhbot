@@ -18,8 +18,8 @@
           "id": "0ac699df-1f85-4435-b9b7-2b5f07f0d94d"
         }
       ],
-      "x": 252,
-      "y": 164,
+      "x": 169,
+      "y": 180,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -67,8 +67,8 @@
           ]
         }
       ],
-      "x": 480,
-      "y": 83
+      "x": 333,
+      "y": 48
     },
     {
       "type": "response",
@@ -88,8 +88,8 @@
           "id": "2fc71a7e-78a7-4b2a-b77b-1014f0ca4b5d"
         }
       ],
-      "x": 697,
-      "y": 62,
+      "x": 488,
+      "y": 47,
       "rtype": "Message",
       "rsubtype": "Send Message",
       "formdata": [
@@ -117,8 +117,8 @@
           ]
         }
       ],
-      "x": 0,
-      "y": 75
+      "x": 13,
+      "y": 48
     },
     {
       "type": "response",
@@ -138,8 +138,8 @@
           "id": "ef09f330-ab8b-4ab9-b964-e1c8f8949ef3"
         }
       ],
-      "x": 253,
-      "y": 11,
+      "x": 171,
+      "y": 45,
       "rtype": "Message",
       "rsubtype": "Send Message",
       "formdata": [
@@ -167,8 +167,8 @@
           ]
         }
       ],
-      "x": 12,
-      "y": 473
+      "x": 7,
+      "y": 407
     },
     {
       "type": "response",
@@ -188,8 +188,8 @@
           "id": "40bc1c39-932c-4fe1-8cf8-71c84f95b85d"
         }
       ],
-      "x": 264,
-      "y": 454,
+      "x": 170,
+      "y": 410,
       "rtype": "Message",
       "rsubtype": "Send Message",
       "formdata": [
@@ -217,8 +217,8 @@
           ]
         }
       ],
-      "x": 466,
-      "y": 212
+      "x": 341,
+      "y": 207
     },
     {
       "type": "response",
@@ -238,8 +238,8 @@
           "id": "12c2f3b6-f652-4e18-8975-8fed9a0edd46"
         }
       ],
-      "x": 701,
-      "y": 206,
+      "x": 495,
+      "y": 209,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -309,8 +309,8 @@
           "id": "0ac699df-1f85-4435-b9b7-2b5f07f0d94d"
         }
       ],
-      "x": 250,
-      "y": 275,
+      "x": 168,
+      "y": 269,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -358,8 +358,8 @@
           ]
         }
       ],
-      "x": 437,
-      "y": 356
+      "x": 332,
+      "y": 353
     },
     {
       "type": "response",
@@ -367,8 +367,6 @@
       "guid": "bc44a815-8759-4892-8789-fb078c6195cc",
       "reactionFields": [],
       "embedfields": [],
-      "saveToVariable": "",
-      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -381,8 +379,8 @@
           "id": "8acbd10d-7c34-4be6-958e-a5e128031199"
         }
       ],
-      "x": 657,
-      "y": 346,
+      "x": 491,
+      "y": 354,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -393,7 +391,7 @@
         "",
         "",
         "",
-        "¿dueños para ver las redes de los dueños\n\n¿instagram para ver el instagram de la comunidad\n\n¿discord para tener la invite al servidor\n\n¿gaming para saber quienes son nuestros players\n\n¿rol para darte un autorol\n\n¿diseñador para saber quien es nuestro diseñador",
+        "¿reglas para ver las reglas\n\n¿dueños para ver las redes de los dueños\n\n¿instagram para ver el instagram de la comunidad\n\n¿discord para tener la invite al servidor\n\n¿gaming para saber quienes son nuestros players\n\n¿rol para darte un autorol\n\n¿diseñador para saber quien es nuestro diseñador",
         "",
         "",
         "",
@@ -430,8 +428,8 @@
           ]
         }
       ],
-      "x": 483,
-      "y": 509
+      "x": 330,
+      "y": 478
     },
     {
       "type": "response",
@@ -455,8 +453,8 @@
           "id": "b665cc9d-7ff1-4bd8-8625-3b7641da3d34"
         }
       ],
-      "x": 690,
-      "y": 508,
+      "x": 489,
+      "y": 479,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -467,7 +465,7 @@
         "Las Heras Gaming BOT",
         "",
         "",
-        "❤️ : Valorant\n💙 : CSGO\n💚 : Fortnite",
+        "❤️ : Valorant\n💙 : CSGO\n💚 : Fortnite\n💟 : Usuario",
         "",
         "",
         "",
@@ -499,7 +497,8 @@
       "reactionFields": [
         "💚",
         "❤️",
-        "💙"
+        "💙",
+        "💟"
       ],
       "embedfields": [],
       "outputs": [
@@ -520,6 +519,12 @@
           "connections": [
             "1b83641d-30ef-49c5-b3b3-4eacc03798bc"
           ]
+        },
+        {
+          "label": "💟",
+          "connections": [
+            "e594ee74-83de-438f-8957-4e85cf2923fa"
+          ]
         }
       ],
       "inputs": [
@@ -528,8 +533,8 @@
           "id": "a3d57bb5-bf8a-4567-8640-953ed229a191"
         }
       ],
-      "x": 900,
-      "y": 504,
+      "x": 647,
+      "y": 480,
       "rtype": "Reaction",
       "rsubtype": "Add Reaction Listener",
       "formdata": [
@@ -565,8 +570,8 @@
           "id": "31cf0cac-691f-4d81-abeb-b66c778f304a"
         }
       ],
-      "x": 1189,
-      "y": 475,
+      "x": 804,
+      "y": 481,
       "rtype": "User Action",
       "rsubtype": "Add Role to User",
       "formdata": [
@@ -596,8 +601,8 @@
           "id": "31cf0cac-691f-4d81-abeb-b66c778f304a"
         }
       ],
-      "x": 1191,
-      "y": 586,
+      "x": 962,
+      "y": 482,
       "rtype": "User Action",
       "rsubtype": "Add Role to User",
       "formdata": [
@@ -627,8 +632,8 @@
           "id": "31cf0cac-691f-4d81-abeb-b66c778f304a"
         }
       ],
-      "x": 1154,
-      "y": 704,
+      "x": 805,
+      "y": 592,
       "rtype": "User Action",
       "rsubtype": "Add Role to User",
       "formdata": [
@@ -638,6 +643,159 @@
       "formnames": [
         "user",
         "roleName"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "reglas",
+      "guid": "b9b23b95-3393-41f1-89ab-2a4796c144ae",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "e2388d2a-c879-467e-b0d6-5d9d3b05f3c2"
+          ]
+        }
+      ],
+      "x": 5,
+      "y": 641
+    },
+    {
+      "type": "response",
+      "name": "canal reglas",
+      "guid": "e2388d2a-c879-467e-b0d6-5d9d3b05f3c2",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "b9b23b95-3393-41f1-89ab-2a4796c144ae"
+        }
+      ],
+      "x": 169,
+      "y": 642,
+      "rtype": "Message",
+      "rsubtype": "Send Message",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "Te invitamos a leer nuestro canal de reglas  <@${dbsVars.CommandAuthor.id}>.",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelName",
+        "messageText",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "Rol usuario",
+      "guid": "e594ee74-83de-438f-8957-4e85cf2923fa",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "31cf0cac-691f-4d81-abeb-b66c778f304a"
+        }
+      ],
+      "x": 966,
+      "y": 594,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${dbsVars.CommandAuthor.id}",
+        "Usuario"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "guez",
+      "guid": "fa070c00-ee31-4d09-8324-56a9fb2fa950",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "06c833cb-9c64-4f0b-b0a6-4c876716e6aa"
+          ]
+        }
+      ],
+      "x": 333,
+      "y": 643
+    },
+    {
+      "type": "response",
+      "name": "foto guez",
+      "guid": "06c833cb-9c64-4f0b-b0a6-4c876716e6aa",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "fa070c00-ee31-4d09-8324-56a9fb2fa950"
+        }
+      ],
+      "x": 493,
+      "y": 643,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "6ECAFF",
+        "",
+        "",
+        "Guez era facherazo.",
+        "",
+        "",
+        "",
+        "",
+        "https://scontent.feze1-1.fna.fbcdn.net/v/t1.0-9/1782061_676275009076716_2510846387160177161_n.jpg?_nc_cat=111&_nc_sid=cdbe9c&_nc_ohc=t3jknIdXmFgAX9B8-i6&_nc_ht=scontent.feze1-1.fna&oh=edea00f89762c56e0fe53271a4a9dbf5&oe=5F4FD531",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
       ]
     }
   ]

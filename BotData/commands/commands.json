@@ -123,7 +123,7 @@
           "authorname": "",
           "authorimageurl": "",
           "authorlink": "",
-          "description": "¿dueños para ver las redes de los dueños\n\n¿instagram para ver el instagram de la comunidad\n\n¿discord para tener la invite al servidor\n\n¿gaming para saber quienes son nuestros players\n\n¿rol para darte un autorol\n\n¿diseñador para saber quien es nuestro diseñador",
+          "description": "¿reglas para ver las reglas\n\n¿dueños para ver las redes de los dueños\n\n¿instagram para ver el instagram de la comunidad\n\n¿discord para tener la invite al servidor\n\n¿gaming para saber quienes son nuestros players\n\n¿rol para darte un autorol\n\n¿diseñador para saber quien es nuestro diseñador",
           "thumbnail": "",
           "image": "",
           "footer": "",
@@ -147,7 +147,7 @@
           "authorname": "Las Heras Gaming BOT",
           "authorimageurl": "",
           "authorlink": "",
-          "description": "❤️ : Valorant\n💙 : CSGO\n💚 : Fortnite",
+          "description": "❤️ : Valorant\n💙 : CSGO\n💚 : Fortnite\n💟 : Usuario",
           "thumbnail": "",
           "image": "",
           "footer": "",
@@ -186,6 +186,15 @@
                 "user": "${dbsVars.CommandAuthor.id}",
                 "rolename": "LH CSGO"
               }
+            ],
+            "💟": [
+              {
+                "name": "Rol usuario",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${dbsVars.CommandAuthor.id}",
+                "rolename": "Usuario"
+              }
             ]
           },
           "message": "${tempVars.reactionmenu.id}",
@@ -193,6 +202,44 @@
           "reactionemoji": "reactionemoji",
           "reactionuser": "reactionuser",
           "react": "BOOL_TRUE@@"
+        }
+      ]
+    },
+    {
+      "name": "reglas",
+      "actions": [
+        {
+          "name": "canal reglas",
+          "category": "Message",
+          "type": "Send Message",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "messagetext": "Te invitamos a leer nuestro canal de reglas  <@${dbsVars.CommandAuthor.id}>.",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "guez",
+      "actions": [
+        {
+          "name": "foto guez",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "6ECAFF",
+          "title": "",
+          "url": "",
+          "authorname": "Guez era facherazo.",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "https://scontent.feze1-1.fna.fbcdn.net/v/t1.0-9/1782061_676275009076716_2510846387160177161_n.jpg?_nc_cat=111&_nc_sid=cdbe9c&_nc_ohc=t3jknIdXmFgAX9B8-i6&_nc_ht=scontent.feze1-1.fna&oh=edea00f89762c56e0fe53271a4a9dbf5&oe=5F4FD531",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
         }
       ]
     }

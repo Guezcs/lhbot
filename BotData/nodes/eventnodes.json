@@ -10,7 +10,10 @@
       "outputs": [
         {
           "label": "responses",
-          "connections": []
+          "connections": [
+            "57c1089b-d9d9-453f-856a-6bd245bf7484",
+            "0f685612-255a-4403-9cff-afc5007ffb77"
+          ]
         }
       ],
       "x": 99,
@@ -82,6 +85,72 @@
       "x": 100,
       "y": 625,
       "perms": []
+    },
+    {
+      "type": "response",
+      "name": "bienvenida",
+      "guid": "57c1089b-d9d9-453f-856a-6bd245bf7484",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "49ebbc23-2903-4f05-ab69-bc9ecb4f067e"
+        }
+      ],
+      "x": 339,
+      "y": 55,
+      "rtype": "Message",
+      "rsubtype": "Send Message",
+      "formdata": [
+        "👋〕bienvenida",
+        "Holaaa %%newuser%%, bienvenido a General Las Heras Gaming. Tipea ¿help para conocer nuestros comandos.",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelName",
+        "messageText",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "Rol nuevos",
+      "guid": "0f685612-255a-4403-9cff-afc5007ffb77",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "49ebbc23-2903-4f05-ab69-bc9ecb4f067e"
+        }
+      ],
+      "x": 364,
+      "y": 174,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${tempVars.newuser.id}",
+        "Nuevos"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
     }
   ]
 }
