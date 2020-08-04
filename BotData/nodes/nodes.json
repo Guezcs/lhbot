@@ -1,0 +1,644 @@
+{
+  "nodes": [
+    {
+      "type": "response",
+      "name": "Redes sociales",
+      "guid": "be0a9db0-715e-4fa0-bea9-ba4254548c7e",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "0ac699df-1f85-4435-b9b7-2b5f07f0d94d"
+        }
+      ],
+      "x": 252,
+      "y": 164,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "1467FF",
+        "Guez#3672",
+        "",
+        "Redes de Guez.",
+        "",
+        "",
+        "https://www.instagram.com/guezcs/\nhttps://www.youtube.com/channel/UCHSLyiqJz6NPmTBabjGEZ_Q\nhttps://www.twitch.tv/guezcs",
+        "",
+        "",
+        "Seguime en todos lados bebe.",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "gaming",
+      "guid": "2fc71a7e-78a7-4b2a-b77b-1014f0ca4b5d",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "7a0c7d89-00af-468b-a7f2-f446a84895dc"
+          ]
+        }
+      ],
+      "x": 480,
+      "y": 83
+    },
+    {
+      "type": "response",
+      "name": "Jugadores de las heras",
+      "guid": "7a0c7d89-00af-468b-a7f2-f446a84895dc",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "2fc71a7e-78a7-4b2a-b77b-1014f0ca4b5d"
+        }
+      ],
+      "x": 697,
+      "y": 62,
+      "rtype": "Message",
+      "rsubtype": "Send Message",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "Hola <@${dbsVars.CommandAuthor.id}>, actualmente tenemos jugadores competitivos en Fortnite y CSGO.\nGuez quien juega CSGO para Team persas, BigEm22 juega Fortnite competitivamente para BlueRay.",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelName",
+        "messageText",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "instagram",
+      "guid": "ef09f330-ab8b-4ab9-b964-e1c8f8949ef3",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "5785c864-3371-4103-aa53-4b2e3432428e"
+          ]
+        }
+      ],
+      "x": 0,
+      "y": 75
+    },
+    {
+      "type": "response",
+      "name": "Instagram Las Heras.",
+      "guid": "5785c864-3371-4103-aa53-4b2e3432428e",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "ef09f330-ab8b-4ab9-b964-e1c8f8949ef3"
+        }
+      ],
+      "x": 253,
+      "y": 11,
+      "rtype": "Message",
+      "rsubtype": "Send Message",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "<@${dbsVars.CommandAuthor.id}> el instragram de General Las Heras Gaming es",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelName",
+        "messageText",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "discord",
+      "guid": "40bc1c39-932c-4fe1-8cf8-71c84f95b85d",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "98ce1911-af19-4a30-9ec3-2c4a6347196e"
+          ]
+        }
+      ],
+      "x": 12,
+      "y": 473
+    },
+    {
+      "type": "response",
+      "name": "Discord General Las Heras Gaming",
+      "guid": "98ce1911-af19-4a30-9ec3-2c4a6347196e",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "40bc1c39-932c-4fe1-8cf8-71c84f95b85d"
+        }
+      ],
+      "x": 264,
+      "y": 454,
+      "rtype": "Message",
+      "rsubtype": "Send Message",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "https://discord.gg/d54MQ9S",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelName",
+        "messageText",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "diseñador",
+      "guid": "12c2f3b6-f652-4e18-8975-8fed9a0edd46",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "d8ad1908-9bdf-4df9-9b58-186d2b32b875"
+          ]
+        }
+      ],
+      "x": 466,
+      "y": 212
+    },
+    {
+      "type": "response",
+      "name": "Nuestro diseñador.",
+      "guid": "d8ad1908-9bdf-4df9-9b58-186d2b32b875",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "12c2f3b6-f652-4e18-8975-8fed9a0edd46"
+        }
+      ],
+      "x": 701,
+      "y": 206,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "6BFDFF",
+        "",
+        "",
+        "Diseñador de General Las Heras Gaming.",
+        "",
+        "",
+        "https://www.instagram.com/cuerboz/",
+        "",
+        "",
+        "Siganlo que hace cosas idas.",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "dueños",
+      "guid": "0ac699df-1f85-4435-b9b7-2b5f07f0d94d",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "be0a9db0-715e-4fa0-bea9-ba4254548c7e",
+            "7645089f-5a58-4bc7-bb2a-96072fa11dee"
+          ]
+        }
+      ],
+      "x": 17,
+      "y": 237
+    },
+    {
+      "type": "response",
+      "name": "Redes BigEm22",
+      "guid": "7645089f-5a58-4bc7-bb2a-96072fa11dee",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "0ac699df-1f85-4435-b9b7-2b5f07f0d94d"
+        }
+      ],
+      "x": 250,
+      "y": 275,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "FFFC40",
+        "BigEm#4894",
+        "",
+        "Redes BigEm22",
+        "",
+        "",
+        "https://www.twitch.tv/bigem22\nhttps://www.instagram.com/maticano.ok/\nhttps://www.youtube.com/channel/UCKk74oMfhQSPPiwFt5Lig3w?view_as=subscriber",
+        "",
+        "",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "help",
+      "guid": "8acbd10d-7c34-4be6-958e-a5e128031199",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "bc44a815-8759-4892-8789-fb078c6195cc"
+          ]
+        }
+      ],
+      "x": 437,
+      "y": 356
+    },
+    {
+      "type": "response",
+      "name": "comandos",
+      "guid": "bc44a815-8759-4892-8789-fb078c6195cc",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "8acbd10d-7c34-4be6-958e-a5e128031199"
+        }
+      ],
+      "x": 657,
+      "y": 346,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "FF6BB8",
+        "Comandos del bot",
+        "",
+        "",
+        "",
+        "",
+        "¿dueños para ver las redes de los dueños\n\n¿instagram para ver el instagram de la comunidad\n\n¿discord para tener la invite al servidor\n\n¿gaming para saber quienes son nuestros players\n\n¿rol para darte un autorol\n\n¿diseñador para saber quien es nuestro diseñador",
+        "",
+        "",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "rol",
+      "guid": "b665cc9d-7ff1-4bd8-8625-3b7641da3d34",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "a3d57bb5-bf8a-4567-8640-953ed229a191"
+          ]
+        }
+      ],
+      "x": 483,
+      "y": 509
+    },
+    {
+      "type": "response",
+      "name": "Menu de roles",
+      "guid": "a3d57bb5-bf8a-4567-8640-953ed229a191",
+      "reactionFields": [],
+      "embedfields": [],
+      "saveToVariable": "reactionmenu",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": [
+            "31cf0cac-691f-4d81-abeb-b66c778f304a"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "b665cc9d-7ff1-4bd8-8625-3b7641da3d34"
+        }
+      ],
+      "x": 690,
+      "y": 508,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "FF42CD",
+        "Menu de roles",
+        "",
+        "Las Heras Gaming BOT",
+        "",
+        "",
+        "❤️ : Valorant\n💙 : CSGO\n💚 : Fortnite",
+        "",
+        "",
+        "",
+        "false",
+        "reactionmenu",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "listener",
+      "guid": "31cf0cac-691f-4d81-abeb-b66c778f304a",
+      "reactionFields": [
+        "💚",
+        "❤️",
+        "💙"
+      ],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "💚",
+          "connections": [
+            "8f74660c-7fc6-4ea7-86e4-da747fda2677"
+          ]
+        },
+        {
+          "label": "❤️",
+          "connections": [
+            "4fc953a4-2b86-4cfb-9afd-351ec0f76d46"
+          ]
+        },
+        {
+          "label": "💙",
+          "connections": [
+            "1b83641d-30ef-49c5-b3b3-4eacc03798bc"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "a3d57bb5-bf8a-4567-8640-953ed229a191"
+        }
+      ],
+      "x": 900,
+      "y": 504,
+      "rtype": "Reaction",
+      "rsubtype": "Add Reaction Listener",
+      "formdata": [
+        "${tempVars.reactionmenu.id}",
+        "60",
+        "reactionemoji",
+        "reactionuser",
+        "BOOL_TRUE@@"
+      ],
+      "formnames": [
+        "message",
+        "duration",
+        "reactionemoji",
+        "reactionuser",
+        "react"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "Rol Fortnite",
+      "guid": "8f74660c-7fc6-4ea7-86e4-da747fda2677",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "31cf0cac-691f-4d81-abeb-b66c778f304a"
+        }
+      ],
+      "x": 1189,
+      "y": 475,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${dbsVars.CommandAuthor.id}",
+        "LH Fortnite"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "Rol Valorant",
+      "guid": "4fc953a4-2b86-4cfb-9afd-351ec0f76d46",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "31cf0cac-691f-4d81-abeb-b66c778f304a"
+        }
+      ],
+      "x": 1191,
+      "y": 586,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${dbsVars.CommandAuthor.id}",
+        "LH Valorant"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    },
+    {
+      "type": "response",
+      "name": "Rol CSGO",
+      "guid": "1b83641d-30ef-49c5-b3b3-4eacc03798bc",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "31cf0cac-691f-4d81-abeb-b66c778f304a"
+        }
+      ],
+      "x": 1154,
+      "y": 704,
+      "rtype": "User Action",
+      "rsubtype": "Add Role to User",
+      "formdata": [
+        "${dbsVars.CommandAuthor.id}",
+        "LH CSGO"
+      ],
+      "formnames": [
+        "user",
+        "roleName"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "command": [
+    {
+      "name": "gaming",
+      "actions": [
+        {
+          "name": "Jugadores de las heras",
+          "category": "Message",
+          "type": "Send Message",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "messagetext": "Hola <@${dbsVars.CommandAuthor.id}>, actualmente tenemos jugadores competitivos en Fortnite y CSGO.\nGuez quien juega CSGO para Team persas, BigEm22 juega Fortnite competitivamente para BlueRay.",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "instagram",
+      "actions": [
+        {
+          "name": "Instagram Las Heras.",
+          "category": "Message",
+          "type": "Send Message",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "messagetext": "<@${dbsVars.CommandAuthor.id}> el instragram de General Las Heras Gaming es",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "discord",
+      "actions": [
+        {
+          "name": "Discord General Las Heras Gaming",
+          "category": "Message",
+          "type": "Send Message",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "messagetext": "https://discord.gg/d54MQ9S",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "diseñador",
+      "actions": [
+        {
+          "name": "Nuestro diseñador.",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "6BFDFF",
+          "title": "",
+          "url": "",
+          "authorname": "Diseñador de General Las Heras Gaming.",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "https://www.instagram.com/cuerboz/",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Siganlo que hace cosas idas.",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "dueños",
+      "actions": [
+        {
+          "name": "Redes sociales",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "1467FF",
+          "title": "Guez#3672",
+          "url": "",
+          "authorname": "Redes de Guez.",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "https://www.instagram.com/guezcs/\nhttps://www.youtube.com/channel/UCHSLyiqJz6NPmTBabjGEZ_Q\nhttps://www.twitch.tv/guezcs",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Seguime en todos lados bebe.",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "Redes BigEm22",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FFFC40",
+          "title": "BigEm#4894",
+          "url": "",
+          "authorname": "Redes BigEm22",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "https://www.twitch.tv/bigem22\nhttps://www.instagram.com/maticano.ok/\nhttps://www.youtube.com/channel/UCKk74oMfhQSPPiwFt5Lig3w?view_as=subscriber",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "help",
+      "actions": [
+        {
+          "name": "comandos",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF6BB8",
+          "title": "Comandos del bot",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "¿dueños para ver las redes de los dueños\n\n¿instagram para ver el instagram de la comunidad\n\n¿discord para tener la invite al servidor\n\n¿gaming para saber quienes son nuestros players\n\n¿rol para darte un autorol\n\n¿diseñador para saber quien es nuestro diseñador",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "rol",
+      "actions": [
+        {
+          "name": "Menu de roles",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF42CD",
+          "title": "Menu de roles",
+          "url": "",
+          "authorname": "Las Heras Gaming BOT",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "❤️ : Valorant\n💙 : CSGO\n💚 : Fortnite",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "reactionmenu",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "listener",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "💚": [
+              {
+                "name": "Rol Fortnite",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${dbsVars.CommandAuthor.id}",
+                "rolename": "LH Fortnite"
+              }
+            ],
+            "❤️": [
+              {
+                "name": "Rol Valorant",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${dbsVars.CommandAuthor.id}",
+                "rolename": "LH Valorant"
+              }
+            ],
+            "💙": [
+              {
+                "name": "Rol CSGO",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "user": "${dbsVars.CommandAuthor.id}",
+                "rolename": "LH CSGO"
+              }
+            ]
+          },
+          "message": "${tempVars.reactionmenu.id}",
+          "duration": "60",
+          "reactionemoji": "reactionemoji",
+          "reactionuser": "reactionuser",
+          "react": "BOOL_TRUE@@"
+        }
+      ]
+    }
+  ]
+}
